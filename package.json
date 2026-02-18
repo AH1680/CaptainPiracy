@@ -1,0 +1,22 @@
+{
+  "name": "pirate-bot-api",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "seed:commands": "node seedCommands.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongodb": "^7.1.0",
+    "mongoose": "^8.8.0"
+  }
+}
